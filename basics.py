@@ -5,6 +5,8 @@ st.title("Streamlit tutorial")
 
 st.header("My First Streamlit App")
 st.subheader("This is sub header.")
+st.text("This is basic text.")
+st.caption("This is caption")
 
 # Sidebar
 st.sidebar.title("This is sidebar")
@@ -24,8 +26,6 @@ st.markdown("## This is markdown")
 st.markdown("### This is markdown")
 st.markdown(":moon:")
 
-st.text("This is basic text.")
-st.caption("This is caption")
 
 ### Widgets
 st.checkbox("login")
